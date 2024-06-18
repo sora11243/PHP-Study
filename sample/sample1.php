@@ -10,7 +10,7 @@ echo "Hello World！\n";
 $var1 = "これは変数です";
 echo $var1;
 
-// 改行
+// 改行https://www.tohoho-web.com/php/control.html#if
 echo "\n";
 
 // 別の変数を宣言
@@ -56,7 +56,7 @@ echo "\n";
 echo "========================================================\n";
 
 // 条件式
-// https://www.tohoho-web.com/php/control.html#if
+// 
 
 $num = 9;
 
