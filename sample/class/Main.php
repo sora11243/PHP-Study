@@ -9,11 +9,11 @@ $subUser = new User(1111, "田中サブ", 21);
 showUserStatus($mainUser);
 showUserStatus($subUser);
 
-$mainUser->setName("佐藤");
-$mainUser->setAge(30);
+// $mainUser->setName("佐藤");
+// $mainUser->setAge(30);
 
-showUserStatus($mainUser);
-showUserStatus($subUser);
+// showUserStatus($mainUser);
+// showUserStatus($subUser);
 
 function showUserStatus($user)
 {

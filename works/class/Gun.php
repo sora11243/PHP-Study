@@ -33,10 +33,11 @@ class Gun
     // リロード
     function relaod()
     {  // 問題2
-        if ($this->currentMagazine <= $this->maxMagazine)
-            $this->currentMagazine = $this->maxMagazine;
-        elseif ($this->currentMagazine = $this->maxMagazine)
-            echo "リロードの必要はありません";
+        if ($this->currentMagazine = $this->maxMagazine) {
+            return "リロードの必要はありません";
+        } elseif ($this->currentMagazine < $this->maxMagazine) {
+            echo $this->currentMagazine = $this->maxMagazine;
+        }
     }
 
     // 発砲
